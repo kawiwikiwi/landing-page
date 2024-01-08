@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    margin-right: 180px;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.header {
+    background-color: #1f2937;
+    padding: 20px;
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 180px;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+}
+
+.body1 {
+    background-color: #1f2937;
+    display: flex;
+    padding-bottom: 130px;
+    padding-top: 110px;
+    gap: 16px;
+}
+
+.body1 h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    display: flex;
+    margin: 0;
+    margin-bottom: 10px;
+    
+}
+
+.body1 p {
+    display: flex;
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    flex: 1 0 0;
+}
+
+button {
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #f9faf8;
+    padding: 8px 20px;
+    width: 130px;
+}
+
+.sign-up-button {
+    border: none;
+}
+
+.large-image {
+    display: flex;
+    flex: 1 0 0;
+    background-color: #919191;
+    margin-right: 200px;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+}
+
+.body2 {
+    padding-bottom: 110px;
+}
+
+h3 {
+    display: flex;
+    font-size: 32px;
+    font-weight: 900; 
+    color: #1f2937;
+    justify-content: center;
+}
+
+img {
+    width: 150px;
+    border-radius: 16px;
+    border: 5px solid #3882f6;
+}
+
+.image-containers {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 200px;
+
+}
+
+.small-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-image p {
+    text-align: center;
+    max-width: 150px;
+    color: #1f2937;
+}
+
+.body3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 110px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+}
+
+.quote {
+    text-align: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+.client-name {
+    align-self: flex-end;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.body4 {
+    padding: 100px;
+}
+
+.container-bottom {
+    display: flex;
+    margin: 0 100px;
+    background-color: #3882f6;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding: 50px 100px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.sign-up-button-inverted {
+    border: 2px solid #f9faf8;
+    height: 45px;
+}
+
+.container-bottom h4,
+.container-bottom p {
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+}
+
+.container-bottom h4 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.container-bottom p {
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid #3882f6;
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin-top: 100px;
+}
+
+.oops {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oops h1 {
+    font-size: 36px;
+    color: #f9faf8;
+    margin-bottom: 0;
+    margin-top: 24px;
+}
+
+.oops p {
+    font-size: 18px;
+}
+
+.oops button {
+    margin-bottom: 24px;
+}
