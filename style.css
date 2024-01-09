@@ -13,7 +13,6 @@ body {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
     font-size: 18px;
 }
 
@@ -27,9 +26,18 @@ ul {
 }
 
 .header {
-    background-color: #1f2937;
+    background-color: #4f7942;
     padding: 20px;
+    align-items: center;
     
+}
+
+.link-text {
+    color: #fcf7d4;
+    border-bottom: 3px dashed #fcf7d4;
+    padding-bottom: 5px;
+    text-wrap: nowrap;
+    text-overflow: clip;
 }
 
 .header-content {
@@ -42,16 +50,21 @@ ul {
 .logo {
     margin: 0;
     font-size: 24px;
-    color: #f9faf8;
+    color: #fcf7d4;
     display: flex;
+    border-bottom: 3px dashed #fcf7d4;
+    padding-bottom: 5px;
+    text-wrap: nowrap;
+    margin-right: 16px;
 }
 
 .body1 {
-    background-color: #1f2937;
+    background-color: #4f7942;
     display: flex;
     padding-bottom: 130px;
     padding-top: 110px;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .body1 h2 {
@@ -68,8 +81,8 @@ ul {
     display: flex;
     margin: 0;
     font-size: 18px;
-    color: #e5e7eb;
-    margin-bottom: 10px;
+    color: #fcf7d4;
+    margin-bottom: 20px;
 }
 
 .content1 {
@@ -77,7 +90,7 @@ ul {
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 200px;
-    flex: 1 0 0;
+    flex: 1 1 0;
 }
 
 button {
@@ -85,44 +98,56 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3882f6;
+    background-color: #444c38;
     border-radius: 8px;
     font-size: 18px;
-    color: #f9faf8;
     padding: 8px 20px;
     width: 130px;
 }
 
 .sign-up-button {
     border: none;
+    color: white;
 }
 
 .large-image {
     display: flex;
-    flex: 1 0 0;
-    background-color: #919191;
+    flex: 1 1 0;
     margin-right: 200px;
     align-items: center;
     justify-content: center;
-    color: #f9faf8;
+    border-radius: 16px;
+    background-image: url(images/leaf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+/* .large-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    object-fit: cover;
+    overflow: auto;
+} */
 
 .body2 {
     padding-bottom: 110px;
+    background-color: #fcf7d4;
 }
 
 h3 {
     display: flex;
     font-size: 32px;
     font-weight: 900; 
-    color: #1f2937;
+    color: #444c38;
     justify-content: center;
 }
 
-img {
+.small-image img {
     width: 150px;
     border-radius: 16px;
-    border: 5px solid #3882f6;
+    border: 5px dashed #0B6623;
 }
 
 .image-containers {
@@ -149,7 +174,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e5e7eb;
+    background-color: #e0edd8;
     padding: 110px;
 }
 
@@ -165,7 +190,7 @@ img {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1f2937;
+    color: #444c38;
     margin: 0;
 }
 
@@ -176,16 +201,18 @@ img {
     font-weight: 900;
     margin: 0;
     margin-top: 10px;
+    color: #444c38;
 }
 
 .body4 {
     padding: 100px;
+    background-color: #fcf7d4;
 }
 
 .container-bottom {
     display: flex;
     margin: 0 100px;
-    background-color: #3882f6;
+    background-color: #444c38;
     justify-content: space-between;
     border-radius: 12px;
     padding: 50px 100px;
@@ -225,11 +252,11 @@ img {
 
 .footer {
     display: flex;
-    background-color: #1f2937;
+    background-color: #4f7942;
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #fcf7d4;
 }
 
 .container {
@@ -237,17 +264,18 @@ img {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: 5px solid #3882f6;
+    border: 5px solid #4f7942;
     height: 300px;
     width: 600px;
     border-radius: 20px;
-    background-color: #3882f6;
+    background-color: #4f7942;
     color: #f9faf8;
     margin-top: 100px;
 }
 
 .oops {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -261,8 +289,10 @@ img {
 
 .oops p {
     font-size: 18px;
+    color: #fcf7d4;
 }
 
-.oops button {
+.oops-button {
     margin-bottom: 24px;
+    border: none;
 }
